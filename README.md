@@ -11,6 +11,7 @@ This project is laid out like this:
       - **`index.html`** is an HTML file that shows static content.
 
 You can compile this into a directory and a `.war` file by executing this command:
+This is updated by MD
 
 ```
 mvn package
