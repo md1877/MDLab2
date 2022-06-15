@@ -5,7 +5,7 @@
 
   <groupId>io.happycoding</groupId>
   <artifactId>hello-world-maven</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <properties>
@@ -35,6 +35,6 @@
     </plugins>
 
     <!-- The output .war file's name, which will be the name of the webapp. -->
-    <finalName>${project.artifactId-${project.version}}</finalName>
+    <finalName>${project.artifactId}-${project.version}</finalName>
   </build>
 </project>
